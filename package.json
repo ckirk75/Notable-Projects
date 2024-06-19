@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.385.0",
+    "@aws-sdk/lib-storage": "^3.385.0",
+    "aws-sdk": "^2.1430.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "formidable": "^3.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "cs403",
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

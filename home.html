@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <div>
+        <h2>File Upload System</h2>
+        <h3>file upload</h3>
+        <input type="file" id="fileToUpload" />
+        <button onclick="s3bucket()"> upload</button>
+            Upload
+            </button>
+    </div>
+    <script src='uploadtobucket.js'></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.726.0.min.js"></script>
+</body>
+<body>
+    <h2>Enter Email</h2>
+    <form id="contact-form" method="post">
+    <h4>Email:</h4>
+      <div id="formfield">
+        <input type="text" name="text" class="text" size="50" placeholder="Email" required>
+      </div>
+      <input name="submit" type="Submit" value="Submit">
+    </form>
+      <div class="controls">
+        <button class="add" onclick="add()"><i class="fa fa-plus"></i>Add</button>
+        <button class="remove" onclick="remove()"><i class="fa fa-minus"></i>Remove</button>
+      </div>
+    </div>
+    <script src='add.js'></script>
+  </body>
+
+</html>
